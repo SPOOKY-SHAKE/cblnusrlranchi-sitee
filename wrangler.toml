@@ -1,0 +1,20 @@
+name = "cblnusrlranchi-sitee"
+compatibility_date = "2024-01-01"
+
+[build]
+command = "cd frontend && npm install --legacy-peer-deps && npm run build"
+cwd = "."
+watch_dir = "frontend/src"
+
+[build.upload]
+format = "modules"
+dir = "frontend/build"
+rules = [
+  { type = "ESModule", globs = ["**/*.{js,mjs}"] },
+  { type = "Text", globs = ["**/*.{html,css,json,txt,svg}"] }
+]
+
+[env.production]
+routes = [
+  { pattern = "/*", zone_name = "your-domain.com" }
+]
