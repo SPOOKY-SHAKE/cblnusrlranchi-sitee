@@ -12,22 +12,13 @@
   "routes": [
     {
       "src": "/static/(.*)",
-<<<<<<< HEAD
-=======
-      "headers": { "cache-control": "s-maxage=31536000,immutable" },
->>>>>>> 40b883a4a9ee85842bc9fc8b9a8e488ab88fb69c
       "dest": "/static/$1"
     },
     {
       "src": "/(.*)",
       "dest": "/index.html"
     }
-<<<<<<< HEAD
-  ]
-=======
   ],
   "installCommand": "cd frontend && npm install --legacy-peer-deps",
-  "buildCommand": "cd frontend && npm run build",
-  "outputDirectory": "frontend/build"
->>>>>>> 40b883a4a9ee85842bc9fc8b9a8e488ab88fb69c
+  "buildCommand": "cd frontend && npm run build"
 }
