@@ -2,8 +2,8 @@
   "name": "cblnusrlranchi-sitee",
   "version": "1.0.0",
   "scripts": {
-    "build": "cd frontend && npm install --legacy-peer-deps && npm run build",
-    "start": "cd frontend && npm start"
+    "build": "cd frontend && bun install && bun run build",
+    "start": "cd frontend && bun start"
   },
   "devDependencies": {
     "@vercel/static-build": "^1.0.0"
