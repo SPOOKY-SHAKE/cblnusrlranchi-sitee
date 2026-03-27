@@ -50,10 +50,15 @@ let webpackConfig = {
             '**/public/**',
         ],
       };
+<<<<<<< HEAD
 
       // Fix publicPath for Vercel deployment
       webpackConfig.output.publicPath = '/';
 
+=======
+      // Fix publicPath for Vercel deployment
+webpackConfig.output.publicPath = '/';
+>>>>>>> 40b883a4a9ee85842bc9fc8b9a8e488ab88fb69c
       // Add health check plugin to webpack if enabled
       if (config.enableHealthCheck && healthPluginInstance) {
         webpackConfig.plugins.push(healthPluginInstance);
