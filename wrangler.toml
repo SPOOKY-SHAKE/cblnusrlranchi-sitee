@@ -4,11 +4,10 @@ compatibility_date = "2024-01-01"
 [build]
 command = "bun install && bun run build"
 cwd = "frontend"
-watch_dir = "frontend/src"
 
 [build.upload]
 format = "modules"
-dir = "build"
+dir = "frontend/build"
 rules = [
   { type = "ESModule", globs = ["**/*.{js,mjs}"] },
   { type = "Text", globs = ["**/*.{html,css,json,txt,svg}"] }
