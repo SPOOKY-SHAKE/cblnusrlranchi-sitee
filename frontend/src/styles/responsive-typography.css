@@ -1,0 +1,142 @@
+/* Responsive Typography System for Center for Business Law */
+
+/* 
+Mobile (320px - 767px): Base sizes
+Tablet (768px - 1023px): md: breakpoint
+Laptop/Desktop (1024px+): lg: breakpoint
+*/
+
+/* Hero Headings */
+.hero-title {
+  /* Mobile: 2.5rem (40px) */
+  font-size: 2.5rem;
+  line-height: 1.2;
+  
+  /* Tablet: 4rem (64px) */
+  @media (min-width: 768px) {
+    font-size: 4rem;
+  }
+  
+  /* Laptop: 6rem (96px) */
+  @media (min-width: 1024px) {
+    font-size: 6rem;
+  }
+}
+
+/* Page Titles */
+.page-title {
+  /* Mobile: 2rem (32px) */
+  font-size: 2rem;
+  line-height: 1.3;
+  
+  /* Tablet: 3rem (48px) */
+  @media (min-width: 768px) {
+    font-size: 3rem;
+  }
+  
+  /* Laptop: 3.75rem (60px) */
+  @media (min-width: 1024px) {
+    font-size: 3.75rem;
+  }
+}
+
+/* Section Headings */
+.section-heading {
+  /* Mobile: 1.75rem (28px) */
+  font-size: 1.75rem;
+  line-height: 1.3;
+  
+  /* Tablet: 2.25rem (36px) */
+  @media (min-width: 768px) {
+    font-size: 2.25rem;
+  }
+  
+  /* Laptop: 3rem (48px) */
+  @media (min-width: 1024px) {
+    font-size: 3rem;
+  }
+}
+
+/* Card Titles */
+.card-title {
+  /* Mobile: 1.25rem (20px) */
+  font-size: 1.25rem;
+  line-height: 1.4;
+  
+  /* Tablet: 1.5rem (24px) */
+  @media (min-width: 768px) {
+    font-size: 1.5rem;
+  }
+  
+  /* Laptop: 1.875rem (30px) */
+  @media (min-width: 1024px) {
+    font-size: 1.875rem;
+  }
+}
+
+/* Body Text */
+.body-text {
+  /* Mobile: 0.875rem (14px) */
+  font-size: 0.875rem;
+  line-height: 1.6;
+  
+  /* Tablet: 1rem (16px) */
+  @media (min-width: 768px) {
+    font-size: 1rem;
+  }
+  
+  /* Laptop: 1.125rem (18px) */
+  @media (min-width: 1024px) {
+    font-size: 1.125rem;
+  }
+}
+
+/* Lead Text */
+.lead-text {
+  /* Mobile: 1rem (16px) */
+  font-size: 1rem;
+  line-height: 1.6;
+  
+  /* Tablet: 1.125rem (18px) */
+  @media (min-width: 768px) {
+    font-size: 1.125rem;
+  }
+  
+  /* Laptop: 1.25rem (20px) */
+  @media (min-width: 1024px) {
+    font-size: 1.25rem;
+  }
+}
+
+/* Small Text */
+.small-text {
+  /* Mobile: 0.75rem (12px) */
+  font-size: 0.75rem;
+  line-height: 1.5;
+  
+  /* Tablet: 0.875rem (14px) */
+  @media (min-width: 768px) {
+    font-size: 0.875rem;
+  }
+  
+  /* Laptop: 0.875rem (14px) */
+  @media (min-width: 1024px) {
+    font-size: 0.875rem;
+  }
+}
+
+/* Button Text */
+.button-text {
+  /* Mobile: 0.875rem (14px) */
+  font-size: 0.875rem;
+  
+  /* Tablet: 0.9375rem (15px) */
+  @media (min-width: 768px) {
+    font-size: 0.9375rem;
+  }
+  
+  /* Laptop: 1rem (16px) */
+  @media (min-width: 1024px) {
+    font-size: 1rem;
+  }
+}
